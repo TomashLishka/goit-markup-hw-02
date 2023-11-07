@@ -17,7 +17,6 @@ h1{
     font-weight: 700;
     line-height: 107.143%; 
     letter-spacing: 1.12px;
-    width: 496px;
 }
 h2{
     font-family: Roboto;
@@ -33,12 +32,10 @@ h3{
     font-weight: 500;
     line-height: 120%; 
     letter-spacing: 0.4px;
-    width: 264px;
 }
 p{
     color: var(--SLATE, #434455);
     text-align: center;
-    width: 264px;
 }
 .head .head-navigation .head-navigation-logo{
     color: #4d5ae5;
@@ -49,7 +46,6 @@ p{
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
-    width: 71px;
 }
 nav .accent{
     color: #2e2f42;
@@ -96,6 +92,9 @@ nav .menu{
 .button:focus{
     background-color: #404BBF;
 }
+.our-advantages{
+    color: #2e2f42;
+}
 
 .our-portfolio{
     color: var(--NAVY-BLUE, #2E2F42);
@@ -103,7 +102,9 @@ nav .menu{
 .portfolio-paragraph{
     color: var(--SLATE, #434455);
 }
-
+.team-photo{
+    background-color: #ffffff;
+}
 .head .head-info .head-info-li{
     list-style-type: none;
 }
@@ -146,13 +147,10 @@ nav .menu{
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
-    width: 44px;
-    display: block;
 }
 footer .accent{
     color: #f4f4fd;
 }
 .foot-paragraph{
     color: var(--CLOUD, #F4F4FD);
-    width: 264px;
 }
