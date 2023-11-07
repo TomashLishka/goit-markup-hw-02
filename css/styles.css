@@ -1,6 +1,7 @@
 body{
-    font-family: Roboto;
-    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #ffffff;
     font-size: 16px;
     font-weight: 400;
     line-height: 150%; 
@@ -9,9 +10,7 @@ body{
 footer{
     background: var(--NAVY-BLUE, #2E2F42);
 }
-button{
-    cursor: pointer;
-}
+
 h1{
     font-family: Roboto;
     font-size: 56px;
@@ -42,18 +41,18 @@ p{
     width: 264px;
 }
 .head .head-navigation .head-navigation-logo{
-    color: var(--NAVY-BLUE, #2E2F42);
-    font-family: Raleway;
+    color: #4d5ae5;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 116.667%; 
+    line-height: 1.17; 
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
     width: 71px;
 }
 nav .accent{
-    color: var(--IRIS, #4D5AE5);
+    color: #2e2f42;
 }
 nav .menu{
     color: var(--NAVY-BLUE, #2E2F42);
@@ -62,6 +61,7 @@ nav .menu{
 }
 
 .head .head-navigation .head-navigation-link{
+    color: #2e2f42;
     font-size: 16px;
     font-weight: 500;
     line-height: 150%;
@@ -69,9 +69,32 @@ nav .menu{
     text-decoration: none;
 }
 
+.head .head-navigation .head-navigation-link:hover{
+    color: #404bbf;
+}
+
+.head .head-navigation .head-navigation-link:focus{
+    color: #404bbf;
+}
+
 .our-personal{
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
+}
+.button{
+    background-color: #4d5ae5;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #404BBF;
+}
+.button:focus{
+    background-color: #404BBF;
 }
 
 .our-portfolio{
@@ -88,6 +111,15 @@ nav .menu{
     color: var(--SLATE, #434455);
     text-decoration: none;
 }
+.head-info{
+    font-style: normal;
+}
+.head .head-info .head-info-link:hover{
+    color: #404bbf;
+}
+.head .head-info .head-info-link:focus{
+    color: #404bbf;
+}
 .dark-background{
     background: var(--NAVY-BLUE, #2E2F42);
 }
@@ -96,18 +128,21 @@ nav .menu{
     text-align: center;
 }
 .light-background{
-    background-color: #f4f4f4;
+    background-color: #F4F4FD;
 }
 .our-team{
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
 }
+.section-paragraph{
+    font-size: 16px;
+}
 .foot-logo{
-    color: var(--CLOUD, #F4F4FD);
-    font-family: Raleway;
+    color: #4d5ae5;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 116.667%; 
+    line-height: 1.17; 
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
@@ -115,7 +150,7 @@ nav .menu{
     display: block;
 }
 footer .accent{
-    color: var(--IRIS, #4D5AE5);
+    color: #f4f4fd;
 }
 .foot-paragraph{
     color: var(--CLOUD, #F4F4FD);
