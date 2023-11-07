@@ -73,10 +73,7 @@ nav .menu{
     color: #404bbf;
 }
 
-.our-personal{
-    color: var(--NAVY-BLUE, #2E2F42);
-    text-align: center;
-}
+
 .button{
     background-color: #4d5ae5;
     color: #ffffff;
@@ -95,13 +92,16 @@ nav .menu{
 .our-advantages{
     color: #2e2f42;
 }
-
+.third-head{
+    color: #2e2f42;
+}
 .our-portfolio{
     color: var(--NAVY-BLUE, #2E2F42);
 }
 .portfolio-paragraph{
     color: var(--SLATE, #434455);
 }
+
 .team-photo{
     background-color: #ffffff;
 }
@@ -153,4 +153,12 @@ footer .accent{
 }
 .foot-paragraph{
     color: var(--CLOUD, #F4F4FD);
+}
+.personal-li{
+    background-color: #ffffff;
+}
+.our-personal{
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    background-color: #ffffff;
 }
